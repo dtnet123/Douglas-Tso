@@ -1,0 +1,495 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    cursor: url(./images/emo.png),default;
+}
+
+.solid{
+    background-color: whitesmoke;
+    border: solid 1px whitesmoke;
+    opacity: 0.85;
+    transition: 0.3s 
+}
+
+.icon{
+    width: 30px;
+    height: 60px;
+    margin-left: 15px;
+}
+
+.jumbotron{
+    margin-bottom: 0px;
+}
+
+.nav-item{
+   margin-left: 40px;
+}
+
+.aboutMeText {
+    margin: 0 auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 37px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #35AAE8;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+}
+
+.position{
+    position: sticky;
+    z-index: 4;
+    top: 0px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 17px;
+letter-spacing: 0px;
+word-spacing: 0px;
+color: #3BB9FF;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+}
+
+.bridge1{
+    background-image:linear-gradient(to bottom, #E2F8F5,#F8F9EF );
+    height:200px;
+}
+
+.bridge2{
+    background-image:linear-gradient(to bottom, #F8F9EF,#D2F3FC );
+    height:200px;
+}
+
+.bridge3{
+    background-image:linear-gradient(to bottom, #D2F3FC,#C9E4F2 );
+    height:200px;
+}
+
+.bridge4{
+    background-image:linear-gradient(to bottom, #C9E4F2 ,#69A8DC );
+    height:200px;
+}
+
+.bridge5{
+    background-image:linear-gradient(to bottom, #E1F1FA,#69A8DC);
+    height:100px;
+}
+
+.topSec{
+    padding-right: 0px; 
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-top: -85px;
+    margin-bottom: 0px;
+    
+}
+
+.minion{
+    display: none;
+    
+        animation-duration: 3s;
+        animation-delay: 2s;
+        animation-iteration-count: initial;
+      
+}
+
+
+.aboutMeText:after{
+    display: block;
+    border-radius: 50px;
+    height: 3px;
+    background-color: #F9DF82;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.trans{
+    background-color: transparent !important;
+
+}
+
+.nav-item:hover{
+    font-size: larger;
+    transition-duration: 0.4s;
+}
+
+
+.cover{
+    background-image: url(./images/hedge-ontree.gif);
+    background-size: 100vw 100vh;
+    border-radius: 0;
+    height: 850px;
+    background-position: center ; 
+    padding-top:100px;
+    top: -100px;
+    overflow: hidden;
+}
+
+.overlay{
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.topHead{
+    display: flex;
+    justify-content: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 27px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #3BB9FF;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+}
+
+
+.h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 27px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #3BB9FF;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+}
+
+.pH{
+    margin-top: 200px ;
+    margin-left: 100px;
+}
+
+.p{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 20px;
+letter-spacing: 2px;
+word-spacing: 2px;  
+color: #3BB9FF;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+text-align: center;
+}
+
+
+.pHobbs{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 37px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #90A8F5;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+text-align: center;
+margin-top: 40px;
+}
+
+.pHobbs1{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 37px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #90A8F5;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+text-align: center;
+margin-top: 40px;
+}
+
+.space{
+    margin-top: 100px;
+    
+}
+
+.aboutMeBg{
+    background-color:  #F8F9EF;
+    padding-top: 0px;
+    top: -600px;
+}
+
+.bball{
+    margin-top: 180px;
+}
+
+
+.bowling{
+margin-top: 50px
+}
+
+.movies{
+margin-top: -50px;
+}
+
+.golf{
+    animation-duration: 3s;
+        animation-delay: 2s;
+        animation-iteration-count: 1;
+        border-radius: 33%; width: 500px;
+}
+    
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.bili{
+    height: 200px;
+    width: 270px;
+    border-radius: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.bili1{
+    height: 200px;
+    width: 160px;
+    border-radius: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bili2{
+    height: 200px;
+    width: 160px;
+    border-radius: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.biliBg{
+    background-color: #D2F3FC;
+}
+
+.wrap1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contactMeBg{
+    background-color: #C9E4F2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-image: url(/AboutMe/assets/images/sky.gif);
+    height: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cR{
+    display: flex;
+    justify-content: center;
+    background-color:#69A8DC ;
+    margin-bottom: 0px;
+    font-size: 15px;
+ }
+
+.mario{
+    height: 70px;
+}
+
+.pacMan{
+height: 70px;
+animation: petey 3s linear infinite;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+  }
+  
+
+
+@keyframes petey {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(250px, 0) rotate(45deg);
+  }
+  5% {
+    transform: translate(100px, 0px)
+  }
+  10% {
+    transform: translate(150px, 0)
+  }
+  25% {
+    transform: translate(200px, 0)
+  }
+  35% {
+    transform: translate(300px, 0)
+  }
+  50% {
+    transform: translate(200px, 0) scaleX(-1);
+  }
+  60% {
+    transform: translate(150px, 0) scaleX(-1);
+  }
+  75% {
+    transform: translate(100px, 0) scaleX(-1);
+  }
+  100% {
+    transform: translate(0, 0) scaleX(-1);
+  }
+}
+
+
+.ghost{
+height: 70px;
+}
+
+.pAbG{
+    background-image: url(./images/86844_cartoon-cloud-background.png);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.pAt{
+margin: 0 auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 37px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #fff;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+display: block;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.pAt:after{
+    display: block;
+    border-radius: 50px;
+    height: 3px;
+    background-color: #F9DF82;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+
+.pHcon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rowN{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.d-block{
+height: 600px;
+}
+
+.w-100{
+width: 500px !important;
+}
+
+
+.bili-seek{
+height: 600px;
+width: 400px;
+display:flex;
+justify-content:center;
+border-radius: 20px;
+}
+
+.bili-flower{
+    height: 700px;
+    width: 400px;
+display:flex;
+justify-content:center;
+border-radius: 20px;
+}
+
+.bili-smile{
+    height: 600px;
+    width: 400px;
+display:flex;
+justify-content:center;
+border-radius: 20px;
+}
+
+.bili-open{
+    height: 600px;
+    width: 400px;
+display:flex;
+justify-content:center;
+border-radius: 20px;
+}
+
+.bili-box{
+    height: 600px;
+    width: 400px;
+display:flex;
+justify-content:center;
+border-radius: 20px;
+}
+
+.me-times{
+    height: 500px;
+    width: 500px;
+    display:flex;
+    justify-content:center;
+    border-radius: 20px;
+}
+
+.footer2{
+    background-image: url(/AboutMe/assets/images/sky.gif);
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.carousel-inner{
+    left: 380px;
+}
